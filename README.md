@@ -18,7 +18,7 @@ Download the language/feature on demand packs that you will be using to inject i
 
 	• After obtaining the ISO, mount it and transfer the necessary packages from the ISO to your designated staging folder at "C:\23H2\langfod".
 	
-	![image](https://github.com/user-attachments/assets/95a769ee-cfd4-4b4e-aff6-3b208fa190ab)
+![image](https://github.com/user-attachments/assets/95a769ee-cfd4-4b4e-aff6-3b208fa190ab)
 
 	
 	• Mount the Windows 11 ISO, navigate to "sources" folder and copy the "install.wim" wim file to the root of the C:\23H2 folder.
