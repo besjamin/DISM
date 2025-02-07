@@ -1,3 +1,4 @@
+This tutorial will provide you with instructions on how to inject language packs, feature on demand packs and cumulative updates/patches.
 
 Create a Folder in C: drive named, "24H2" with the following subfolders as your staging environment. 
 
