@@ -1,4 +1,4 @@
-This tutorial will provide you with instructions on how to inject language packs, feature on demand packs and cumulative updates/patches.
+This tutorial will demonstrate on how to inject en-AU language packs, feature on demand packs and cumulative updates/patches.
 
 Create a Folder in C: drive named, "24H2" with the following subfolders as your staging environment. 
 
@@ -28,7 +28,7 @@ Download the language/feature on demand packs that you will be using to inject i
 		
 ![image](https://github.com/user-attachments/assets/92048737-e842-4e94-9c42-48b5433e4620)
 		
-		As you can see, it's Index:1 Windows 11 Education.
+		As you can see with the above screen shot, Index:1 Windows 11 Education is what we're using for our tutorial.
 		
 		○ Now we have to mount the wim into our staging directory, run the following command:
 	
@@ -36,7 +36,6 @@ Download the language/feature on demand packs that you will be using to inject i
 		
 ![image](https://github.com/user-attachments/assets/f5392657-7017-459b-9dca-1a43bb3689b3)
 	
-		
 		○ No we need to inject the language packs and fod demand packs into the wim.
 		
 		dism /image:"C:\24H2\mount" /Add-Package /PackagePath="C:\24H2\langfod"
