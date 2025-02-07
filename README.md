@@ -1,4 +1,4 @@
-This tutorial will demonstrate on how to inject en-AU language packs, feature on demand packs and cumulative updates/patches.
+This tutorial will demonstrate on how to inject en-AU language packs and feature on demand packs.
 
 Create a Folder in C: drive named, "24H2" with the following subfolders as your staging environment. 
 
@@ -48,6 +48,4 @@ Download the language/feature on demand packs that you will be using to inject i
 		dism.exe /Unmount-Image /MountDir:C:\24H2\mount /commit
 		
 ![image](https://github.com/user-attachments/assets/f215ce99-8b35-4281-a57d-84ee26f7fb73)
-		
-		
-	Language pack will not apply unless you apply the latest Cumulative Update/s.
+
