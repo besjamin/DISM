@@ -31,7 +31,7 @@ Download the language/feature on demand packs that you will be using to inject i
 		
 		dism /get-wiminfo /wimfile:c:\install.wim
 		
-		![image](https://github.com/user-attachments/assets/e72d7ee9-d248-4e9b-9a7c-48c1110cfd37)
+![image](https://github.com/user-attachments/assets/e72d7ee9-d248-4e9b-9a7c-48c1110cfd37)
 
 
 		
