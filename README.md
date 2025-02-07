@@ -17,10 +17,8 @@ Download the language/feature on demand packs that you will be using to inject i
 
 	
 • Mount the Windows 11 ISO, navigate to "sources" folder and copy the "install.wim" wim file to the root of the C:\24H2 folder.
-		
-• Now that we have our staging folder ready, we can go ahead and inject the language and feature on-demand packages. 
-
-• Open CMD in Administrator mode, navigate to "C:\24H2\" and run the following commands.
+		• Now that we have our staging folder ready, we can go ahead and inject the language and feature on-demand packages. 
+		• Open CMD in Administrator mode, navigate to "C:\24H2\" and run the following commands.
 
 • You must determine the appropriate WIM index for injecting these packages, we need to inject them into the Windows 11 Education WIM index. To determine this, run the following command.
 		
