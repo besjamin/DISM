@@ -31,7 +31,8 @@ Download the language/feature on demand packs that you will be using to inject i
 		
 		dism /get-wiminfo /wimfile:c:\install.wim
 		
-		![image](https://github.com/user-attachments/assets/3ffbb686-6b63-4b8e-9230-3c4631af6f4f)
+		![image](https://github.com/user-attachments/assets/e72d7ee9-d248-4e9b-9a7c-48c1110cfd37)
+
 
 		
 		As you can see, it's Index:1 Windows 11 Education.
