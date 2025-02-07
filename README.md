@@ -3,6 +3,7 @@ This repo will provide instructions on how to inject Cumulative and Patches, en-
 
 
 Create a Folder in C: drive named, "23H2" with the following subfolders as your staging environment. 
+
 ![image](https://github.com/user-attachments/assets/7b60f230-2eea-430b-b8e5-e133119553c6)
 
 
@@ -11,12 +12,14 @@ Download the language/feature on demand packs that you will be using to inject i
 
 	• https://learn.microsoft.com/en-us/azure/virtual-desktop/windows-11-language-packs#create-a-content-repository-for-language-packages-and-features-on-demand
 
+![image](https://github.com/user-attachments/assets/01fe16ee-a5d2-4bd4-b527-df53679a1010)
 
 
 
 	• After obtaining the ISO, mount it and transfer the necessary packages from the ISO to your designated staging folder at "C:\23H2\langfod".
 	
-	
+	![image](https://github.com/user-attachments/assets/95a769ee-cfd4-4b4e-aff6-3b208fa190ab)
+
 	
 	• Mount the Windows 11 ISO, navigate to "sources" folder and copy the "install.wim" wim file to the root of the C:\23H2 folder.
 		
@@ -28,7 +31,8 @@ Download the language/feature on demand packs that you will be using to inject i
 		
 		dism /get-wiminfo /wimfile:c:\install.wim
 		
-		
+		![image](https://github.com/user-attachments/assets/3ffbb686-6b63-4b8e-9230-3c4631af6f4f)
+
 		
 		As you can see, it's Index:1 Windows 11 Education.
 		
